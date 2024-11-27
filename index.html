@@ -1,0 +1,310 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./public/css/app.css">
+
+
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+</head>
+<body>
+   
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary ">
+    <div class="container">
+      <!-- Brand -->
+      <a class="navbar-brand fw-bolder fs-3" href="#">MolenGeek<span class="text-primary">.</span></a>
+  
+      <!-- Toggle button for mobile view -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <!-- Navbar Links -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <!-- Added `mx-lg-2` for spacing on larger screens -->
+          <li class="nav-item mx-lg-2">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item mx-lg-2">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item mx-lg-2">
+            <a class="nav-link" href="#">Testimonials</a>
+          </li>
+          <li class="nav-item mx-lg-2">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item mx-lg-2">
+            <a class="nav-link" href="#">Team</a>
+          </li>
+          <li class="nav-item mx-lg-2">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+<!-- header -->
+    <header>
+        <div class="div_header">
+            <div>
+                <h1>Welcome to <span class="text-primary fw-bolder">MolenGeek</span></h1>
+                <p>Mon projet du vendredi</p>
+                <button class="button_header "><span style="font-size: small; font-weight: normal;">GET STARTED</span></button>
+            </div>
+    </header>
+<!-- section 1 -->
+    <section class="section_1">
+        <div class="div_section1">
+            <span class="badge rounded-pill text-primary" style="background-color: #E7F1FD;">FEATURED SERVICES</span>
+            <h2>Read <span class="text-primary">Featured Services</span></h2>
+        </div>
+    <!-- card -->
+        <div class="div_card gap-4">
+            <div class="card" style="width: 14rem ; box-shadow: 2px 3px 10px 1px rgba(202, 197, 197, 0.508);">
+            <div class="parti_card" class="card-body">
+                <i class="fa-solid fa-basketball text-primary"></i>
+                <h5 class="card-title">Lorem Ipsum</h5>
+                <p class="card-text">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturia</p>
+                </div>
+            </div>
+            <div class="card" style="width: 14rem; box-shadow: 2px 3px 10px 1px rgba(202, 197, 197, 0.508);">
+                <div class="parti_card" class="card-body">
+                <i class="fa-solid fa-file text-primary"></i>
+                <h5 class="card-title ">Sed ut perspiciatis</h5>
+                <p class="card-text">Magni D tque et quas Duis aute irure dolor in reprehenderit in voluptate </p>
+                </div>
+            </div>
+            <div class="card" style="width: 14rem; box-shadow: 2px 3px 10px 1px rgba(202, 197, 197, 0.508);">
+                <div class="parti_card" class="card-body">
+                <i class="fa-solid fa-gauge text-primary"></i>
+                <h5 class="card-title">Magni Dolores</h5>
+                <p class="card-text">Enim At vero eas et lor in Oluptate olore Excepteur sint occaecat cupidatat</p>
+                </div>
+            </div>
+            <div class="card" style="width: 14rem; box-shadow: 2px 3px 10px 1px rgba(202, 197, 197, 0.508);">
+                <div class="parti_card" class="card-body">
+                <i class="fa-solid fa-earth-americas text-primary"></i>
+                <h5 class="card-title">Nemo Enima</h5>
+                <p class="card-text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+<!-- carousel Testimonial-->
+
+    <section class="section_testimonial">
+        <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="d-flex">
+                    <img style="filter: brightness(.3)" src="public/img/testi.jpg" class="d-block w-75" alt="Testimonial 1">
+                    <img style="filter: brightness(.3)" src="public/img/testi.jpg" class="d-block w-100" alt="Testimonial 1">
+                </div>
+              <div class="carousel-caption" class="div_h3_p">
+                <h3 class="fw-bolder"><span class="text-primary">Testimonial 3</span></h3>
+                <p style="font-size:small;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum rerum consequatur quisquam esse repellendus! Animi fugiat distinctio quis ratione iure aliquam, porro repudiandae minima<br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero accusamus molestias reprehenderit tenetur pariatur voluptatum alias. Maxime impedit optio quas eius veritatis dolore </p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+
+          </button>
+        </div>
+    </section>
+
+<!-- Services -->
+    <section class="section_service">
+        <div class="div_service">
+            <span class="badge rounded-pill text-primary" style="background-color: #E7F1FD;">SERVICES</span>
+            <h2>Check our<span class="text-primary">&nbsp Services</span></h2>
+            <h4>ut possimus qui it temporibus cukpa vekit eveniet modi imni est adisicpite <br>exepeide at voluptas atque vitae euduy.</h4>
+        </div>
+    </section>
+<!-- card 1,2,3 -->
+    <section class="section_card_service">
+            <div class="card text-center " style="width: 18rem;">
+                    <div class="div_service_p" class="card-body">
+                    <i class="fa-solid fa-basketball text-primary"></i>
+                    <h5 class="card-title">title treatment</h5>
+                    <p class="card-text">With supporting text below as  additional content heuaid opzcnz .</p>
+                </div>
+            </div>
+            <div class="card text-center mb-3 " style="width: 18rem;">
+                    <div class="div_service_p" class="card-body">
+                    <i class="fa-solid fa-file text-primary"></i>
+                    <h5 class="card-title">title treatment</h5>
+                    <p class="card-text">With supporting text below as  additional content jeuf ejud zhzh.</p>
+                </div>
+            </div>
+            <div class="card text-center mb-3 " style="width: 18rem;">
+                    <div class="div_service_p" class="card-body">
+                    <i class="fa-solid fa-gauge text-primary"></i>
+                    <h5 class="card-title">title treatment</h5>
+                    <p class="card-text">With supporting text below as  additional content oeisz d readc.</p>
+                </div>
+            </div>
+    </section>
+<!-- parti_2_card -->
+    <section class="parti_2_card">
+            <div class="card text-center mb-3 " style="width: 18rem;">
+                    <div class="div_service_p" class="card-body">
+                    <i class="fa-solid fa-earth-americas text-primary"></i>
+                    <h5 class="card-title">title treatment</h5>
+                    <p class="card-text">With supporting text below as  additional content heuaid opzcnz .</p>
+                </div>
+            </div>
+            <div class="card text-center mb-3 " style="width: 18rem;">
+                    <div class="div_service_p" class="card-body">
+                    <i class="fa-solid fa-tv text-primary"></i>
+                    <h5 class="card-title">title treatment</h5>
+                    <p class="card-text">With supporting text below as  additional content jeuf ejud zhzh.</p>
+                </div>
+            </div>
+            <div class="card text-center mb-3 " style="width: 18rem;">
+                    <div class="div_service_p" class="card-body">
+                    <i class="fa-solid fa-archway text-primary"></i>
+                    <h5 class="card-title">title treatment</h5>
+                    <p class="card-text">With supporting text below as  additional content oeisz d readc.</p>
+                </div>
+            </div>
+    </section>
+<!-- team -->
+    <section class="section_team">
+        <div class="div_team">
+            <span class="badge rounded-pill text-primary" style="background-color: #E7F1FD;">TEAM</span>
+            <h2>Our Hardworking <span class="text-primary">TEAM</span></h2>
+            <h4>ut possimus qui it temporibus cukpa vekit eveniet modi imni est adisicpite <br>exepeide at voluptas atque vitae euduy.</h4>
+        </div>
+<!-- les 4 cards  -->
+        <div class="cards_4 d-flex mt-4 " style=" gap: 1.5em; justify-content:center;flex-wrap: wrap;">
+
+            <div class="card mb-5 " style="width: 15rem; box-shadow: 2px 3px 10px 1px rgba(168, 194, 247, 0.644);">
+                <img src="public/img/team-1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Walter White</h5>
+                    <p class="card-text text-secondary" style="font-size:small;">Chef Excutive Officer</p>
+                </div>
+            </div>
+
+            <div class="card mb-5" style="width: 15rem; box-shadow: 2px 3px 10px 1px rgba(168, 194, 247, 0.644);">
+                <img src="public/img/team-2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Sarah Jhonson</h5>
+                    <p class="card-text text-secondary" style="font-size:small;">Product Manager</p>
+                </div>
+            </div>
+
+            <div class="card mb-5" style="width: 15rem; box-shadow: 2px 3px 10px 1px rgba(168, 194, 247, 0.644);">
+                <img src="public/img/team-3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Wiliam Anderson</h5>
+                    <p class="card-text text-secondary" style="font-size:small;">CTO</p>
+                </div>
+            </div>
+
+            <div class="card mb-5" style="width: 15rem; box-shadow: 2px 3px 10px 1px rgba(168, 194, 247, 0.644);">
+                <img src="public/img/team-4.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Amanda Jepson</h5>
+                    <p class="card-text text-secondary" style="font-size:small;">Accountant</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+<!-- contact -->
+    <section>
+
+    
+        <section class="section_contact">
+            <div >
+                <span class="badge rounded-pill text-primary" style="background-color: #E7F1FD;">CONTACT</span>
+                <h2><span class="text-primary">Contact Us</span></h2>
+                <h4>ut possimus qui it temporibus cukpa vekit eveniet modi imni est adisicpite <br>exepeide at voluptas atque vitae euduy.</h4>
+            </div>
+        </section>
+    <!-- section contact parti 2 -->
+        <section class="section_contact_card">
+    <!-- div qui regroupe les 3 -->
+            <div class="div_contact">
+                <div class="card" style="width: 30rem; box-shadow: 2px 3px 10px 1px rgba(202, 197, 197, 0.508);">
+                    <div class="card-body">
+                    <i class="fa-solid fa-location-dot text-primary rounded-5"></i>
+                    <h5 class="card-title text-secondary">Our Address</h5>
+                    <p class="card-text text-secondary">Place de la minoteri 10, 1080 Molenbeek-Saint-Jean</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 15rem; box-shadow: 2px 3px 10px 1px rgba(202, 197, 197, 0.508);">
+                    <div class="card-body">
+                    <i class="fa-regular fa-envelope text-primary rounded-5"></i>
+                    <h5 class="card-title text-secondary">Email Us</h5>
+                    <p class="card-text text-secondary">info@molengeek.com</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 15rem; box-shadow: 2px 3px 10px 1px rgba(202, 197, 197, 0.508);">
+                    <div class="card-body">
+                    <i class="fa-solid fa-phone-volume text-primary rounded-5"></i>
+                    <h5 class="card-title text-secondary">Call Us</h5>
+                    <p class="card-text text-secondary">+1 5589 55488 55</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    <!-- section contact parti 3 (image, input) -->
+        <section class="section_contact_fin">
+            <div>
+                <div class="div_loc d-flex row ">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5037.387476117493!2d4.338645076428903!3d50.85535537167229!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c38c275028d3%3A0xc7799151146ebf77!2sMolenGeek!5e0!3m2!1sfr!2sbe!4v1732182028195!5m2!1sfr!2sbe" width="500" height="380" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div>
+                    <div class="mb-3 d-flex " style="gap: 0.5em; ">
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your Name" style="border-radius: 0">
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your Email" style="border-radius: 0">
+                      </div>
+                    <div class="mb-3 ">
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Subject" style="border-radius: 0"> 
+                    </div>
+                    <div class="mb-3">
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message" style="border-radius: 0"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary " style="margin-left: 10em; width: 10em; height: 2.7em;">Send Message</button>
+                </div>
+
+            </div>
+        
+        </section>
+    <!-- footer -->
+        <footer>
+            <div class="div_footer">
+                <p>©Copyright <span class="fw-bolder">MolenGeek.</span> All Rights Reserved</p>
+                <p>Designed by <span class="text-primary">MolenGeek</span></p>
+            </div>
+        </footer>
+    </section>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>

@@ -1,0 +1,205 @@
+// service
+.section_service
+    
+    .div_service
+        padding-top: 3em
+        text-align: center //centré le texte 
+        span
+            width: 8em //rajoute de la largeur a mon background
+            height: 2em //rajoute de la hauteur a mon background
+            padding-top: 0.5em // fait descendre le text pour centrer 
+        h2
+            margin-top: 0.5em
+        h4
+            margin-top: 1em
+            font-size: small
+            color: #3b3c3f
+
+//card 1,2,3
+.section_card_service
+    margin-top: -1em
+    display: flex //display flex pour les card afin de ce mettre sur la meme ligne
+    justify-content: center //centre la section compléte au centre
+    gap: 1.5em
+    div
+        text-align: center //centre le texte au centre de chaque card
+        height: 18em 
+        margin-top: 2em
+        padding-left: 0.4em
+        margin-right: 0.4em
+        
+        i   
+            margin-top: 1.5em    
+            background-color: #F1F6FE
+            height: 3em //donner une hauteur au bg
+            width: 3em //donne une largeur au bg
+            border-radius: 0.5em
+            border: 0px solid #bed0ed
+            font-size: 1.5em // aggrandir la taille de l'icone
+            padding-top: 1em
+
+        .div_service_p
+            padding-bottom: 2em
+            h5
+                margin-top: 1em
+                font-weight: bolder // met en gras fort au h5
+            p
+                font-size: small // diminue le text en petit
+                flex-wrap: wrap
+
+.parti_2_card
+    display: flex //display flex pour les card afin de ce mettre sur la meme ligne
+    justify-content: center //centre la section compléte au centre
+    gap: 1.5em
+    
+    div
+        text-align: center
+        height: 18em
+        margin-top: 2em
+        padding-left: 0.4em
+        margin-right: 0.4em
+        margin-bottom: 2em
+        
+        i   
+            margin-top: 1.5em    
+            background-color: #F1F6FE
+            height: 3em //donner une hauteur au bg
+            width: 3em //donne une largeur au bg
+            border-radius: 0.5em
+            border: 0px solid #bed0ed
+            font-size: 1.5em // aggrandir la taille de l'icone
+            padding-top: 1em
+
+        .div_service_p
+            padding-bottom: 2em
+            h5
+                margin-top: 1em
+                font-weight: bolder // met en gras fort au h5
+            p
+                font-size: small // diminue le text en petit
+
+ 
+
+// team
+.section_team
+    background-color:#F6F9FE
+        
+    .div_team
+        text-align: center //centré le texte
+        span
+            margin-top: 3em
+            width: 6em //rajoute de la largeur a mon background
+            height: 2em //rajoute de la hauteur a mon background
+            padding-top: 0.5em // fait descendre le text pour centrer 
+        h2
+            margin-top: 0.5em
+        h4
+            margin-top: 1em
+            font-size: small
+            color: #3b3c3f
+
+// les cards tout est fait en html en raison d'un probleme 
+    
+//contact
+
+section
+    background-color:#f8f8f8e8
+.section_contact
+    padding-top: 3em
+    
+    div
+        text-align: center //centré le texte 
+        span
+            width: 8em //rajoute de la largeur a mon background
+            height: 2em //rajoute de la hauteur a mon background
+            padding-top: 0.5em // fait descendre le text pour centrer 
+        h2
+            margin-top: 0.5em
+        h4
+            margin-top: 1em
+            font-size: small
+            color: #3b3c3f
+
+// section contact parti 2
+.section_contact_card
+    
+            
+.div_contact
+    margin-top: 1.5em //margin top a la section par rapport a la section en haut 
+    display: flex //alligner les 3 cards
+    justify-content: center //mettre toute les cards au centre de la page 
+    gap: 1.5em // espacer chaque card
+    height: 11em //une hauteur a la card
+    div
+        text-align: center //alline le text a l'interieur des tout les cards
+        padding-top: 0.8em
+        div 
+            .div_i
+                border-radius: 50%
+            i
+                font-size: 1.5em //agrandir la taille de l'icone 
+                border: dashed 1px //change la bordure 
+                border-radius: 100% // encercler l'icone 
+                padding: 0.5em
+
+// section dernier parti contact
+
+.section_contact_fin
+    margin-top: 1.5em
+    div
+        display: flex
+        flex-wrap: wrap
+        .div_loc
+            margin-left: 15em
+        div
+            background-color: white
+            margin-left: 1.5em
+            display: block
+            margin-right: 1.5em
+            margin-top: 1.5em
+            
+// fin
+
+
+
+
+
+//responsive tablette
+
+@media (max-width:768px)
+                                 
+    header 
+        .div_header 
+            div
+
+            margin-left: -15em
+            padding-top: 1em // se deplacer a partir du haut a l'interieur de l'image
+              
+
+
+
+    .div_card
+        flex-wrap: wrap
+        justify-content: center
+        flex-direction: row
+    .section_card_service
+        display: flex
+        flex-wrap: wrap
+        justify-content: center
+        flex-direction: row
+       
+    .parti_2_card
+        display: flex
+        flex-wrap: wrap
+        justify-content: center
+        flex-direction: row
+
+    .div_contact
+        height: auto
+        flex-wrap: wrap
+    .section_contact_fin
+    
+    .div_4
+        flex-wrap: wrap
+        justify-content: center
+        flex-direction: row
